@@ -1,0 +1,39 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# macOS
+.DS_Store
+
+# Model files and checkpoints (too large for git)
+*.bin
+*.pth
+*.pt
+*.ckpt
+*.safetensors
+models/results/
+models/checkpoint-*/
+
+# Log files
+*.log
+
+# Temporary files
+tmp/
+temp/
